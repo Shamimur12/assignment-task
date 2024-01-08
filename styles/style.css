@@ -1,5 +1,115 @@
-/* background */
+
+/* header section styles */
+.banner-1{
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+  url(../resources/Banner\ Image.png);
+  background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin: 0 auto; 
+    width: 1320px;
+    height: 600px;
+
+}
+.title-1{
+  color: #FFF;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 32px;
+  padding-top: 177px;
+}
+.title-2{
+  color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    line-height: 95px;
+    font-weight: 900;
+    margin-top: -15px;
+}
+
+/* main section styles */
+
+.main-1{
+  font-family: 'Inter', sans-serif;
+    margin: 10px 140px;
+   
+}
+.percentage{
+  color: #F00;
+
+text-align: center;
+font-size: 88px;
+font-weight: 700;
+margin-top: 48px;
+
+}
+
+.holiday{
+  color: #F00;
+text-align: center;
+font-size: 24px;
+font-weight: 500;
+
+}
+.categories{
+  color: #070211;
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+margin-top: 16px;
+
+}
+.new-year-photo{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px ;
+  
+
+}
+.midnight-party-background{
+
+  background:  linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+   url(../resources/Vectorrr.png);
+   display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px 140px;
+    height: 500px;
+    border-radius: 16px;
+}
+.party{
+  color: #FFF;
+
+font-size: 64px;
+
+font-weight: 900;
+line-height: 88px; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* background
 .banner{
+    border-radius: 16px;
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 background-image: url('../resources/Banner\ Image.png');
 background-repeat: no-repeat;
   background-position: center;
@@ -8,6 +118,7 @@ background-repeat: no-repeat;
   height: 100vh;
   text-decoration: none;
   filter:brightness(50%)
+  margin:0 auto;
  
 }
 .banner-greeting{
@@ -74,3 +185,10 @@ margin-left: auto;
 margin-right: auto;
    
 } 
+.banner-2{ */
+
+    background-image: url('.../resources/Vectorrr.png');
+background-repeat: no-repeat;
+  background-position: center;
+
+}
